@@ -1,0 +1,107 @@
+fileFormatVersion: 2
+guid: 4484648f8e67c684e916f32b845f0182
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Pipe_Cross
+    100002: Pipe_Cross_Round
+    100004: Pipe_Curve_Hard
+    100006: Pipe_Curve_Round
+    100008: Pipe_Straight_1m
+    100010: Pipe_Straight_2m
+    100012: Pipe_Straight_8m
+    100014: Pipe_T-Cross
+    100016: Pipe_Valve
+    100018: //RootNode
+    400000: Pipe_Cross
+    400002: Pipe_Cross_Round
+    400004: Pipe_Curve_Hard
+    400006: Pipe_Curve_Round
+    400008: Pipe_Straight_1m
+    400010: Pipe_Straight_2m
+    400012: Pipe_Straight_8m
+    400014: Pipe_T-Cross
+    400016: Pipe_Valve
+    400018: //RootNode
+    2300000: Pipe_Cross
+    2300002: Pipe_Cross_Round
+    2300004: Pipe_Curve_Hard
+    2300006: Pipe_Curve_Round
+    2300008: Pipe_Straight_1m
+    2300010: Pipe_Straight_2m
+    2300012: Pipe_Straight_8m
+    2300014: Pipe_T-Cross
+    2300016: Pipe_Valve
+    3300000: Pipe_Cross
+    3300002: Pipe_Cross_Round
+    3300004: Pipe_Curve_Hard
+    3300006: Pipe_Curve_Round
+    3300008: Pipe_Straight_1m
+    3300010: Pipe_Straight_2m
+    3300012: Pipe_Straight_8m
+    3300014: Pipe_T-Cross
+    3300016: Pipe_Valve
+    4300000: Pipe_Valve
+    4300002: Pipe_Cross_Round
+    4300004: Pipe_Cross
+    4300006: Pipe_Curve_Round
+    4300008: Pipe_T-Cross
+    4300010: Pipe_Curve_Hard
+    4300012: Pipe_Straight_2m
+    4300014: Pipe_Straight_8m
+    4300016: Pipe_Straight_1m
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
