@@ -50,6 +50,15 @@ ModelImporter:
     4300012: Pipe_Straight_2m
     4300014: Pipe_Straight_8m
     4300016: Pipe_Straight_1m
+    6400000: Pipe_Cross
+    6400002: Pipe_Cross_Round
+    6400004: Pipe_Curve_Hard
+    6400006: Pipe_Curve_Round
+    6400008: Pipe_Straight_1m
+    6400010: Pipe_Straight_2m
+    6400012: Pipe_Straight_8m
+    6400014: Pipe_T-Cross
+    6400016: Pipe_Valve
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -72,7 +81,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0

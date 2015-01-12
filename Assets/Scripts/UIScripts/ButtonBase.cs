@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ButtonBase : MonoBehaviour {
 
-	public bool pressed = false;
+	public bool Pressed = false;
 	public Transform ButtonMesh;
 
 
@@ -19,6 +19,6 @@ public class ButtonBase : MonoBehaviour {
 
 	public void OnPressed() 
 	{
-		pressed = true;
+		Pressed = true;
 	}
 }

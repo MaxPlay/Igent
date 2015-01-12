@@ -58,8 +58,10 @@ ENDCG
 			//Blend DstColor SrcColor // 2x Multiplicative
  
 CGPROGRAM
+// Upgrade NOTE: excluded shader from OpenGL ES 2.0 because it does not contain a surface program or both vertex and fragment programs.
+#pragma exclude_renderers gles
 #pragma vertex vert
-#pragma fragment frag
+#pragma target 3.0
  
 half4 frag(v2f i) : COLOR {
 	return i.color;
@@ -110,6 +112,7 @@ ENDCG
  
 			CGPROGRAM
 			#pragma vertex vert
+			#pragma fragment frag
 			#pragma exclude_renderers gles xbox360 ps3
 			ENDCG
 			SetTexture [_MainTex] { combine primary }

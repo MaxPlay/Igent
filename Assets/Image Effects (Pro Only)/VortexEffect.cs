@@ -6,8 +6,6 @@ public class VortexEffect : ImageEffectBase {
 	public Vector2  radius = new Vector2(0.4F,0.4F);
 	public float    angle = 50;
 	public Vector2  center = new Vector2(0.5F, 0.5F);
-    private float t = 0;
-    private bool pingpong = false;
 
 	// Called by camera to apply image effect
 	void OnRenderImage (RenderTexture source, RenderTexture destination) {
