@@ -11,7 +11,7 @@ public class AudioController : MonoBehaviour {
 	void Start () {
         Master.value = AudioSettings.Master;
         SFX.value = AudioSettings.SFX;
-        Music.value = AudioSettings.Music;
+        Music.value = AudioSettings.SFX;
 	}
 
     public void Refresh() {

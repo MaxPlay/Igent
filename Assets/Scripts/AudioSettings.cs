@@ -9,6 +9,5 @@ public static class AudioSettings
 
     static AudioSettings()
     {
-        Music = 0.8f;
     }
 }
