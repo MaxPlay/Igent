@@ -60,9 +60,11 @@
      <Compile Include="Assets\Image Effects (Pro Only)\SepiaToneEffect.cs" />
      <Compile Include="Assets\Image Effects (Pro Only)\TwirlEffect.cs" />
      <Compile Include="Assets\Image Effects (Pro Only)\VortexEffect.cs" />
+     <Compile Include="Assets\Scripts\AudioSettings.cs" />
      <Compile Include="Assets\Scripts\Entities\Fire.cs" />
      <Compile Include="Assets\Scripts\Entities\LensFlareController.cs" />
      <Compile Include="Assets\Scripts\Entities\LightController.cs" />
+     <Compile Include="Assets\Scripts\UIScripts\AudioController.cs" />
      <Compile Include="Assets\Scripts\UIScripts\ButtonBase.cs" />
      <Compile Include="Assets\Scripts\UIScripts\GraphicsController.cs" />
      <Compile Include="Assets\Scripts\UIScripts\MoveCameraToTarget.cs" />

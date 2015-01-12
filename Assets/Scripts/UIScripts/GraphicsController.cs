@@ -7,9 +7,12 @@ public class GraphicsController : MonoBehaviour
 
     public Color ActiveColor;
 
+    public RectTransform Anchor;
     public Image[] AntiAliasing;
     public Image[] Anisotropic;
     public Image[] TextureQuality;
+    public Image[] VSync;
+    public Slider ShadowDistSlider;
 
     void Start()
     {
@@ -46,6 +49,10 @@ public class GraphicsController : MonoBehaviour
 
         //SetTextureQualityLevel (uses mipmaps as new main Tex)
         TextureQuality[QualitySettings.masterTextureLimit].color = ActiveColor;
+
+        VSync[QualitySettings.vSyncCount].color = ActiveColor;
+
+        ShadowDistSlider.value = QualitySettings.shadowDistance;
     }
 
     // Update is called once per frame
@@ -118,5 +125,20 @@ public class GraphicsController : MonoBehaviour
         TextureQuality[Depth].color = ActiveColor;
 
         QualitySettings.masterTextureLimit = Depth;
+    }
+
+    public void setVSync(int Value)
+    {
+        foreach (Image i in VSync)
+            i.color = Color.white;
+
+        VSync[Value].color = ActiveColor;
+
+        QualitySettings.vSyncCount = Value;
+    }
+
+    public void setShadowDist()
+    {
+        QualitySettings.shadowDistance = (int)ShadowDistSlider.value;
     }
 }
