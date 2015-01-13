@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Syringe 1
+  m_Name: SyringeBlue
   m_Shader: {fileID: 4800000, guid: b1a5d65801a58c24388b7ea3b489ff92, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
@@ -17,7 +17,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 81f469e645f6b7d4caddb245a39b0ba7, type: 3}
+          m_Texture: {fileID: 2800000, guid: d6d183ddb6a63754b829e0806ef7f662, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:

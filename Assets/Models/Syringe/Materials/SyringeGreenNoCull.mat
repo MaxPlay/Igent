@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Syringe 2
-  m_Shader: {fileID: 4800000, guid: b1a5d65801a58c24388b7ea3b489ff92, type: 3}
+  m_Name: SyringeGreenNoCull
+  m_Shader: {fileID: 4800000, guid: 59091e0f6d8e02e4b8cbd6d17e7e9300, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
