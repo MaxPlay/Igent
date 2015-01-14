@@ -69,6 +69,7 @@
      <Compile Include="Assets\Scripts\UIScripts\ButtonBase.cs" />
      <Compile Include="Assets\Scripts\UIScripts\GraphicsController.cs" />
      <Compile Include="Assets\Scripts\UIScripts\MoveCameraToTarget.cs" />
+     <Compile Include="Assets\Scripts\Weapon.cs" />
      <None Include="Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
