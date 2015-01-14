@@ -65,6 +65,7 @@
      <Compile Include="Assets\Scripts\Entities\LensFlareController.cs" />
      <Compile Include="Assets\Scripts\Entities\LightController.cs" />
      <Compile Include="Assets\Scripts\GameplaySettings.cs" />
+     <Compile Include="Assets\Scripts\Pulser.cs" />
      <Compile Include="Assets\Scripts\UIScripts\AudioController.cs" />
      <Compile Include="Assets\Scripts\UIScripts\ButtonBase.cs" />
      <Compile Include="Assets\Scripts\UIScripts\GraphicsController.cs" />
