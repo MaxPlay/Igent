@@ -5,7 +5,7 @@
 		_MainTex ("Base (RGB)", 2D) = "white" {}
 		_Color2("Color 2 (RGB)", Color) = (1,1,1)
 		_MainTex2 ("Base 2 (RGB)", 2D) = "white" {}
-		_Blend ("Blend", Range (0,2)) = 0.5
+		_Blend ("Blend", Range (0,5)) = 0.5
 		_BlendMap ("Blendmap (A)", 2D) = "gray" {}
 		
 	}

@@ -6,7 +6,7 @@
 		_Color2("Color 2 (RGB)", Color) = (1,1,1)
 		_MainTex2 ("Base 2 (RGB)", 2D) = "white" {}
 		_BumpMap2 ("Normalmap 2", 2D) = "bump" {}
-		_Blend ("Blend", Range (0,2)) = 0.5
+		_Blend ("Blend", Range (0,5)) = 0.5
 		_BlendMap ("Blendmap (A)", 2D) = "gray" {}
 		
 	}

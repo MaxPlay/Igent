@@ -9,7 +9,7 @@
 		_BumpMap2 ("Normalmap 2", 2D) = "bump" {}
 		_Shininess2 ("Shininess 2", Range (0.03, 1)) = 0.53214
 		_SpecColor ("Specular Color", Color) = (0.5, 0.5, 0.5, 1)
-		_Blend ("Blend", Range (0,2)) = 0.5
+		_Blend ("Blend", Range (0,5)) = 0.5
 		_BlendMap ("Blendmap (A)", 2D) = "gray" {}
 		
 	}
