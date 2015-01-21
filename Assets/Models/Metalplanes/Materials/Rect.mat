@@ -56,7 +56,7 @@ Material:
       data:
         first:
           name: _Blend
-        second: 1.64285719
+        second: 1.375
       data:
         first:
           name: _Shininess2

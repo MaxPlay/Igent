@@ -45,7 +45,7 @@ Material:
         first:
           name: _BlendMap
         second:
-          m_Texture: {fileID: 2800000, guid: 1167c0a28d11119930004d8a4241aa39, type: 3}
+          m_Texture: {fileID: 2800000, guid: 2897fd3ee8bcefe46b1924e00eb37e52, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -63,7 +63,7 @@ Material:
       data:
         first:
           name: _Blend
-        second: 2
+        second: 5
       data:
         first:
           name: _Shininess2
