@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{EF18B177-D144-65D2-FC9C-002A32D47544}") = "Igent", "Assembly-CSharp.csproj", "{96307D16-1DE0-1394-4E7D-BCFF6AA51BB4}"
 EndProject
-Project("{EF18B177-D144-65D2-FC9C-002A32D47544}") = "Igent", "Assembly-CSharp-Editor.csproj", "{C6B5D379-F8BF-5568-837C-7FCC641F8674}"
-EndProject
 Project("{EF18B177-D144-65D2-FC9C-002A32D47544}") = "Igent", "Assembly-UnityScript.unityproj", "{336CDA9F-885D-ADEB-665F-5A8D544604B0}"
 EndProject
 Project("{EF18B177-D144-65D2-FC9C-002A32D47544}") = "Igent", "Assembly-UnityScript-Editor.unityproj", "{72E3CD9B-9E56-BB40-29F8-544A77547059}"
@@ -19,10 +17,6 @@ Global
 		{96307D16-1DE0-1394-4E7D-BCFF6AA51BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96307D16-1DE0-1394-4E7D-BCFF6AA51BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96307D16-1DE0-1394-4E7D-BCFF6AA51BB4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C6B5D379-F8BF-5568-837C-7FCC641F8674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C6B5D379-F8BF-5568-837C-7FCC641F8674}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C6B5D379-F8BF-5568-837C-7FCC641F8674}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C6B5D379-F8BF-5568-837C-7FCC641F8674}.Release|Any CPU.Build.0 = Release|Any CPU
 		{336CDA9F-885D-ADEB-665F-5A8D544604B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{336CDA9F-885D-ADEB-665F-5A8D544604B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{336CDA9F-885D-ADEB-665F-5A8D544604B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -35,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																																																											GlobalSection(MonoDevelopProperties) = preSolution
+																																																																																																							GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
