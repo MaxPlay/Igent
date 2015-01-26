@@ -8,6 +8,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 490476}
+  - 114: {fileID: 11444580}
   m_Layer: 0
   m_Name: tesla
   m_TagString: Untagged
@@ -85,6 +86,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 190478}
   m_Mesh: {fileID: 4300002, guid: 8176409b2d4825e4fa4fb552a528f681, type: 3}
+--- !u!114 &11444580
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a11597f7baf1c14d8d4d68b7c12d21f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GenerateLightning: 0
+  LightningPrefab: {fileID: 128234, guid: ad3b689b4757fd84e9dd1d2ba2ab18f0, type: 2}
+  Height: 2
+  Radius: .600000024
+  BoltsPerFrame: 1
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
