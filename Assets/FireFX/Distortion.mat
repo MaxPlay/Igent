@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Base
-  m_Shader: {fileID: 4, guid: 0000000000000000f000000000000000, type: 0}
+  m_Name: Distortion
+  m_Shader: {fileID: 4800000, guid: dc0706e2a2a579c458bacb61ed195352, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -17,31 +17,38 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 1d5ec0f623a909c4896ec33e5b96b8a3, type: 3}
+          m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _BumpMap
         second:
-          m_Texture: {fileID: 2800000, guid: 8be1cbbf54d1b864db29e7fb3f1d7447, type: 3}
+          m_Texture: {fileID: 2800000, guid: 81751bda22a1b36479e74d6ea7ff32da, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _NoiseTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 81751bda22a1b36479e74d6ea7ff32da, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
-          name: _Shininess
-        second: .0841578171
+          name: _BumpAmt
+        second: 128
       data:
         first:
-          name: _BumpAmt
-        second: 10
+          name: strength
+        second: .117857136
+      data:
+        first:
+          name: transparency
+        second: .100000001
     m_Colors:
       data:
         first:
           name: _Color
         second: {r: 1, g: 1, b: 1, a: 1}
-      data:
-        first:
-          name: _SpecColor
-        second: {r: .5, g: .5, b: .5, a: 1}
